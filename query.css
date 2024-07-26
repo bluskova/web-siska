@@ -1,0 +1,44 @@
+/********************  sm + md device  ********************/
+/**********************************************************/
+@media (max-width: 768px) {
+  /*******  root variables  *******/
+  :root {
+    --header-height: 80px;
+    --margin-left: 20px;
+    --margin-right: 20px;
+  }
+
+  /*******  common  *******/
+  .content-container {
+    width: calc(100% - var(--margin-left) - var(--margin-right));
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
+  }
+
+  /*******  navigation  *******/
+  header nav {
+    display: none;
+  }
+
+  /*******  hero section  *******/
+  #home .into-wrapper .intro-box-one {
+    display: none;
+  }
+
+  #home .into-wrapper .intro-box-two {
+    width: 100%;
+  }
+}
+
+/********************  lg, xl, xxl device  ********************/
+/**************************************************************/
+@media (min-width: 768px) {
+  /*******  logo & navigation  *******/
+  header .nav-hamburger {
+    display: none;
+  }
+
+  header nav {
+    display: block !important;
+  }
+}
