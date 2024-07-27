@@ -2,8 +2,9 @@
 :root {
   --my-black: rgb(0, 0, 0);
   --my-white: rgb(255, 255, 255);
-  --bg-main: rgb(233, 200, 25);
-  --bg-main-transparent: rgb(233, 200, 25, 0.7);
+  --nav-color: rgb(233, 200, 25);
+  --nav-color-transparent: rgb(233, 200, 25, 0.7);
+  --text-bg-color: rgb(236, 235, 235);
   --my-gap: 20px;
   --header-height: 60px;
 }
@@ -17,14 +18,24 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+body::before {
+  content: "";
   background-image: url("./img/background/zahlavi4.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: repeat;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
 }
 
 .anchor {
@@ -108,7 +119,7 @@ header .nav-list .nav-list-li .nav-dropdown {
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: var(--bg-main-transparent);
+  background-color: var(--nav-color-transparent);
 }
 
 header .nav-list .nav-dropdown .nav-list-dropdown-li {
@@ -154,7 +165,7 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 
 /********************  hero section  ********************/
 #home .into-wrapper {
-  background: var(--bg-main);
+  background-color: var(--text-bg-color);
   padding: 20px;
 }
 
@@ -182,11 +193,11 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 #home .into-wrapper .intro-box-two h1 {
   font-size: 36px;
   font-weight: 300;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   padding-bottom: 20px;
 }
 
-#home .into-wrapper .intro-box-two p {
+#home .into-wrapper .intro-box-two .intro-text {
   font-size: 16px;
   letter-spacing: 1px;
   line-height: 2;
@@ -194,7 +205,7 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 
 /********************  footer  ********************/
 footer {
-  background-color: var(--bg-main-transparent);
+  background-color: var(--nav-color);
   padding-top: calc(2 * var(--my-gap));
   padding-bottom: calc(2 * var(--my-gap));
 }

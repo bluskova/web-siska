@@ -17,7 +17,7 @@
 
   /*******  navigation  *******/
   header .nav-hamburger-container {
-    background-color: var(--bg-main);
+    background-color: var(--nav-color);
   }
 
   header nav {
@@ -32,7 +32,7 @@
     gap: 10px;
     width: max-content;
     height: 100%;
-    background-color: var(--bg-main-transparent);
+    background-color: var(--nav-color-transparent);
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -67,10 +67,10 @@
 
 /********************  lg, xl, xxl device  ********************/
 /**************************************************************/
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   /*******  logo & navigation  *******/
   header {
-    background-color: var(--bg-main);
+    background-color: var(--nav-color);
   }
 
   header .nav-hamburger {
