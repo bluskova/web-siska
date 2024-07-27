@@ -8,8 +8,6 @@
       content="lesní školka, lesní mateřská škola, lesní MŠ, Brno, lesní školka Brno"
     />
     <meta name="author" content="Barbora Lusková" />
-    <!-- email: barbora.luskova@gmail.com  -->
-    <!-- discord: bluskova -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LMŠ Šiška</title>
     <link rel="icon" type="image/x-icon" href="./img/logo/icon.png" />
@@ -30,18 +28,24 @@
   <body>
     <!-------  logo & navigation menu  ------->
     <header>
-      <div class="content-container">
-        <div class="nav-hamburger">
-          <div class="logo-container">
-            <a href="#home"><img src="img/logo/logo-siska.png" alt="logo" /></a>
-          </div>
+      <div class="nav-hamburger-container">
+        <div class="content-container">
+          <div class="nav-hamburger">
+            <div class="menu-icon-container">
+              <i id="menu-icon" class="fa-solid fa-bars"></i>
+            </div>
 
-          <div class="menu-icon-container">
-            <i id="menu-icon" class="fa-solid fa-bars"></i>
+            <div class="logo-container">
+              <a href="#home"
+                ><img src="img/logo/logo-siska.png" alt="logo"
+              /></a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <nav>
+      <nav>
+        <div class="content-container">
           <ul class="nav-list">
             <li class="nav-list-li">
               <a href="#home" class="menu-item">Úvod</a>
@@ -61,7 +65,7 @@
                   >
                 </li>
                 <li class="nav-list-dropdown-li">
-                  <a href="#" class="menu-item-dropdown">Šiščata</a>
+                  <a href="#siscata" class="menu-item-dropdown">Šiščata</a>
                 </li>
                 <li class="nav-list-dropdown-li">
                   <a href="#siskacek" class="menu-item-dropdown">Šiškáček</a>
@@ -103,8 +107,8 @@
               <a href="#contact" class="menu-item">Kontakt</a>
             </li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <main>

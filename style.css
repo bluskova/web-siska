@@ -2,8 +2,8 @@
 :root {
   --my-black: rgb(0, 0, 0);
   --my-white: rgb(255, 255, 255);
-  --bg-main: rgb(149, 215, 225);
-  --bg-main-transparent: rgb(149, 215, 225, 0.8);
+  --bg-main: rgb(233, 200, 25);
+  --bg-main-transparent: rgb(233, 200, 25, 0.7);
   --my-gap: 20px;
   --header-height: 60px;
 }
@@ -13,12 +13,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: url("./img/background/foto.jpg");
+  background-image: url("./img/background/zahlavi4.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -46,13 +45,11 @@ body {
 }
 
 /********************  logo & navigation menu  ********************/
-
 header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: var(--bg-main);
 }
 
 header .nav-hamburger {
@@ -64,6 +61,7 @@ header .nav-hamburger {
 
 header .nav-hamburger .logo-container {
   width: 150px;
+  margin-right: 20px;
 }
 
 header .nav-hamburger .logo-container a {
@@ -84,7 +82,9 @@ header .nav-hamburger .menu-icon-container:hover {
 }
 
 header .nav-hamburger .menu-icon-container i {
-  font-size: 20px;
+  font-size: 22px;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 header .nav-list {
@@ -101,10 +101,10 @@ header .nav-list .nav-list-li {
   position: relative;
 }
 
-header .nav-list .nav-dropdown {
+header .nav-list .nav-list-li .nav-dropdown {
   position: absolute;
   top: 30px;
-  left: -10px;
+  left: -20px;
   width: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -114,8 +114,8 @@ header .nav-list .nav-dropdown {
 header .nav-list .nav-dropdown .nav-list-dropdown-li {
   list-style-type: none;
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 header .nav-list .menu-item,
@@ -153,7 +153,6 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 }
 
 /********************  hero section  ********************/
-
 #home .into-wrapper {
   background: var(--bg-main);
   padding: 20px;

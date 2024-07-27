@@ -1,10 +1,5 @@
 const menuIcon = document.getElementById("menu-icon");
 const navigation = document.querySelector("header nav");
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll("header nav .menu-item");
-const navLinksDown = document.querySelectorAll(
-  "header nav .menu-item-dropdown"
-);
 
 // inicialization
 let hiddenNav = true;
@@ -34,6 +29,20 @@ menuIcon.addEventListener("click", () => {
   if (hiddenNav) {
     openNav();
   } else {
+    closeNav();
+  }
+});
+
+// close the navigation after click anywhere (include 'navLinks', exclude 'menuIcon')
+document.body.addEventListener("click", (event) => {
+  if (!hiddenNav && event.target.id !== "menu-icon") {
+    closeNav();
+  }
+});
+
+// close the navigation after click 'Escape'
+window.addEventListener("keydown", (event) => {
+  if (event.code === "Escape" && !hiddenNav) {
     closeNav();
   }
 });
