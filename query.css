@@ -22,6 +22,9 @@
 
   header nav {
     display: none;
+    position: absolute;
+    top: calc(var(--header-height) - 10px);
+    left: 0;
   }
 
   header nav .nav-list {

@@ -7,6 +7,7 @@
   --text-bg-color: rgb(236, 235, 235);
   --my-gap: 20px;
   --header-height: 60px;
+  --footer-height: 150px;
 }
 
 /********************  common properties  ********************/
@@ -32,9 +33,9 @@ body::before {
   background-attachment: fixed;
   position: absolute;
   top: 0;
-  right: 0;
-  bottom: 0;
+  bottom: var(--footer-height);
   left: 0;
+  right: 0;
   opacity: 0.6;
 }
 
@@ -53,6 +54,15 @@ body::before {
   margin: 0 auto;
   position: relative;
   max-width: 1600px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
 }
 
 /********************  logo & navigation menu  ********************/
@@ -198,20 +208,21 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 }
 
 #home .into-wrapper .intro-box-two .intro-text {
+  font-family: "Fira Sans", sans-serif;
   font-size: 16px;
+  font-weight: 300;
   letter-spacing: 1px;
   line-height: 2;
 }
 
 /********************  footer  ********************/
 footer {
-  background-color: var(--nav-color);
-  padding-top: calc(2 * var(--my-gap));
-  padding-bottom: calc(2 * var(--my-gap));
+  height: var(--footer-height);
+  background-color: var(--nav-color-transparent);
 }
 
 footer .footer-copyright {
-  /* margin-top: calc(2 * var(--my-gap)); */
+  padding-top: 60px;
 }
 
 footer .footer-text {
