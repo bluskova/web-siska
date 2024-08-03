@@ -8,6 +8,8 @@
   --my-gap: 20px;
   --header-height: 60px;
   --footer-height: 150px;
+  --headings-font-family: "Fira Sans", sans-serif;
+  --text-font-family: "Open Sans", sans-serif;
 }
 
 /********************  common properties  ********************/
@@ -18,11 +20,14 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--text-font-family);
+}
+
+#web-page {
   position: relative;
 }
 
-body::before {
+#web-page::before {
   content: "";
   background-image: url("./img/background/zahlavi4.jpg");
   -webkit-background-size: contain;
@@ -33,7 +38,7 @@ body::before {
   background-attachment: fixed;
   position: absolute;
   top: 60px;
-  bottom: calc(var(--footer-height) + 5px);
+  bottom: 0;
   left: 0;
   right: 0;
   opacity: 0.6;
@@ -62,7 +67,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fira Sans", sans-serif;
+  font-family: var(--headings-font-family);
 }
 
 /********************  logo & navigation menu  ********************/
@@ -210,7 +215,7 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 }
 
 #home .into-wrapper .intro-box-two .intro-text {
-  font-family: "Fira Sans", sans-serif;
+  font-family: var(--headings-font-family);
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
@@ -222,6 +227,12 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
   width: 100%;
   height: var(--footer-height);
   border: none;
+  position: absolute;
+  z-index: 2;
+}
+
+footer {
+  height: var(--footer-height);
   background-color: var(--nav-color-transparent);
 }
 
