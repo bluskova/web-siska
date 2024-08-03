@@ -61,6 +61,21 @@ body {
   max-width: 1600px;
 }
 
+.into-wrapper {
+  background-color: var(--text-bg-color);
+  padding: 20px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.white-space {
+  padding: 20px;
+}
+
 h1,
 h2,
 h3,
@@ -68,6 +83,36 @@ h4,
 h5,
 h6 {
   font-family: var(--headings-font-family);
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid var(--nav-color);
+}
+
+h2::first-letter {
+  font-size: 42px;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--nav-color);
+}
+
+h3::first-letter {
+  font-size: 28px;
 }
 
 /********************  logo & navigation menu  ********************/
@@ -181,11 +226,6 @@ header .nav-list .nav-list-li:hover .nav-dropdown {
 }
 
 /********************  hero section  ********************/
-#home .into-wrapper {
-  background-color: var(--text-bg-color);
-  padding: 20px;
-}
-
 #home .into-wrapper {
   display: flex;
   flex-direction: row;
