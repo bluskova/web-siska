@@ -1,21 +1,5 @@
-/********************  sm + md device  ********************/
-/**********************************************************/
+/* sm + md device */
 @media (max-width: 768px) {
-  /*******  root variables  *******/
-  :root {
-    --header-height: 80px;
-    --margin-left: 20px;
-    --margin-right: 20px;
-  }
-
-  /*******  common  *******/
-  .content-container {
-    width: calc(100% - var(--margin-left) - var(--margin-right));
-    margin-left: var(--margin-left);
-    margin-right: var(--margin-right);
-  }
-
-  /*******  navigation  *******/
   header .nav-hamburger-container {
     background-color: var(--nav-color);
   }
@@ -57,21 +41,10 @@
     left: 20px;
     background-color: rgb(0, 0, 0, 0);
   }
-
-  /*******  hero section  *******/
-  #home .into-wrapper .intro-box-one {
-    display: none;
-  }
-
-  #home .into-wrapper .intro-box-two {
-    width: 100%;
-  }
 }
 
-/********************  lg, xl, xxl device  ********************/
-/**************************************************************/
+/*  lg, xl, xxl device */
 @media (min-width: 769px) {
-  /*******  logo & navigation  *******/
   header {
     background-color: var(--nav-color);
   }

@@ -1,0 +1,10 @@
+/* sm + md device */
+@media (max-width: 768px) {
+  #home .into-wrapper .intro-box-one {
+    display: none;
+  }
+
+  #home .into-wrapper .intro-box-two {
+    width: 100%;
+  }
+}

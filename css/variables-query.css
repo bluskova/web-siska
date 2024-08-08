@@ -1,0 +1,8 @@
+/* sm + md device */
+@media (max-width: 768px) {
+  :root {
+    --header-height: 80px;
+    --margin-left: 20px;
+    --margin-right: 20px;
+  }
+}
