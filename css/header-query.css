@@ -2,6 +2,7 @@
 @media (max-width: 768px) {
   header .nav-hamburger-container {
     background-color: var(--nav-color);
+    height: var(--header-height);
   }
 
   header nav {

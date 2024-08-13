@@ -12,14 +12,14 @@ const replaceClass = (element, oldClass, newClass) => {
 
 // function which open navigation
 const openNav = () => {
-  navigation.style.display = "block";
+  replaceClass(navigation, "display-none", "display-block");
   replaceClass(menuIcon, "fa-bars", "fa-xmark");
   hiddenNav = false;
 };
 
 // function which close navigation
 const closeNav = () => {
-  navigation.style.display = "none";
+  replaceClass(navigation, "display-block", "display-none");
   replaceClass(menuIcon, "fa-xmark", "fa-bars");
   hiddenNav = true;
 };

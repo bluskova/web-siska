@@ -1,21 +1,17 @@
-#iframe-footer {
-  width: 100%;
-  height: var(--footer-height);
-  border: none;
-  position: absolute;
-  z-index: 2;
-}
-
 footer {
   height: var(--footer-height);
   background-color: var(--nav-color-transparent);
+}
+
+footer .footer-contact {
+  padding-top: 60px;
 }
 
 footer .footer-copyright {
   padding-top: 60px;
 }
 
-footer .footer-text {
+footer .footer-copyright .footer-text {
   text-align: center;
   font-size: 12px;
   line-height: 1.5;
