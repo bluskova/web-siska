@@ -1,0 +1,20 @@
+/* sm + md device */
+@media (max-width: 768px) {
+  footer .footer-wrapper {
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  footer .wrapper-association {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  footer .wrapper-title {
+    padding-top: 20px;
+  }
+}

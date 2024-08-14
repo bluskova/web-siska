@@ -2,11 +2,11 @@
   --my-black: rgb(0, 0, 0);
   --my-white: rgb(255, 255, 255);
   --nav-color: rgb(233, 200, 25);
-  --nav-color-transparent: rgb(233, 200, 25, 0.7);
+  --nav-color-transparent: rgb(233, 200, 25, 0.9);
   --text-bg-color: rgb(236, 235, 235);
   --my-gap: 20px;
   --header-height: 60px;
-  --footer-height: 550px;
+  --footer-height: 650px;
   --headings-font-family: "Fira Sans", sans-serif;
   --text-font-family: "Open Sans", sans-serif;
 }

@@ -7,7 +7,6 @@ header .nav-hamburger {
 
 header .nav-hamburger .logo-container {
   width: 150px;
-  margin-right: 20px;
 }
 
 header .nav-hamburger .logo-container a {
@@ -30,7 +29,6 @@ header .nav-hamburger .menu-icon-container:hover {
 header .nav-hamburger .menu-icon-container i {
   font-size: 22px;
   padding: 10px;
-  margin-left: 20px;
 }
 
 header nav {
