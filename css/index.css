@@ -34,3 +34,30 @@
   letter-spacing: 1px;
   line-height: 2;
 }
+
+#home .news-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+#home .news-wrapper .section-wrapper {
+  width: 400px;
+  height: max-content;
+  position: relative;
+}
+
+#home .news-wrapper p {
+  text-align: center;
+}
+
+#home .news-wrapper .more-info-btn {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}

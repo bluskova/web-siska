@@ -51,12 +51,24 @@ body {
 .section-wrapper {
   background-color: var(--text-bg-color);
   padding: 20px;
+  border-radius: 5px;
 }
 
 .text {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 10px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.note {
+  font-size: 12px;
+}
+
+.important {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .white-space {
@@ -108,4 +120,48 @@ h3 {
 
 h3::first-letter {
   font-size: 28px;
+}
+
+.my-btn {
+  border: 2px solid var(--nav-color);
+  border-radius: 5px;
+}
+
+.my-btn:hover {
+  background-color: var(--nav-color);
+}
+
+.my-btn a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: var(--text-font-family);
+  text-transform: uppercase;
+}
+
+.more-info-btn {
+  padding: 6px 12px;
+}
+
+.more-info-btn a {
+  font-size: 12px;
+  font-weight: 350;
+  letter-spacing: 0.5px;
+}
+
+.link-btn {
+  padding: 7px 15px;
+}
+
+.link-btn a {
+  font-size: 14px;
+  font-weight: 350;
+  letter-spacing: 0.5px;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

@@ -50,15 +50,6 @@ footer .wrapper-sm {
   justify-content: flex-start;
 }
 
-footer .wrapper-association {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
 footer .wrapper-title {
   display: flex;
   flex-direction: column;
