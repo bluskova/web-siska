@@ -16,14 +16,14 @@
 #contact td:first-child {
   padding-right: 40px;
   text-align: right;
-  width: 200px;
+  width: 250px;
   font-weight: 300;
 }
 
 #contact td:last-child {
   padding-right: 40px;
   text-align: left;
-  width: 400px;
+  width: 350px;
 }
 
 #contact .map-container {
