@@ -1,0 +1,18 @@
+@media (max-width: 1550px) {
+  #about-us .all-cards {
+    gap: calc(2 * var(--my-gap));
+  }
+}
+
+@media (max-width: 1100px) {
+  #about-us .all-cards {
+    gap: var(--my-gap);
+  }
+}
+
+/* sm + md device */
+@media (max-width: 800px) {
+  #about-us .all-cards {
+    justify-content: space-evenly;
+  }
+}

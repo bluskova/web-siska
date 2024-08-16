@@ -48,8 +48,14 @@
   margin-bottom: 20px;
 }
 
-#for-parents h4 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  border-bottom: none;
+#for-parents .download {
+  max-width: 400px;
+}
+
+#for-parents .download th {
+  background-color: var(--text-bg-color);
+}
+
+#for-parents .download tr:hover {
+  background-color: var(--text-bg-color);
 }
