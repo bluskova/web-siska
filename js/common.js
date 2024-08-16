@@ -17,7 +17,7 @@ const afterFooterLoad = () => {
 };
 
 const loadHeaderAndFooter = () => {
-  fetch("./header.html")
+  fetch("./html-fragment/header.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("header").innerHTML = data;
@@ -25,7 +25,7 @@ const loadHeaderAndFooter = () => {
     })
     .catch((error) => console.error("Error loading header.html:", error));
 
-  fetch("./footer.html")
+  fetch("./html-fragment/footer.html")
     .then((response) => response.text())
     .then((data) => {
       document.getElementById("footer").innerHTML = data;
@@ -34,4 +34,30 @@ const loadHeaderAndFooter = () => {
     .catch((error) => console.error("Error loading footer.html:", error));
 };
 
+const loadHarmonogram = () => {
+  fetch("./html-fragment/harmonogram-2024.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("harmonogram-table-2024").innerHTML = data;
+      afterHeaderLoad();
+    })
+    .catch((error) =>
+      console.error("Error loading harmonogram-2024.html:", error)
+    );
+};
+
+const loadIntroductionText = () => {
+  fetch("./html-fragment/introduction-text.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("introduction-text").innerHTML = data;
+      afterHeaderLoad();
+    })
+    .catch((error) =>
+      console.error("Error loading introduction-text.html:", error)
+    );
+};
+
 document.addEventListener("DOMContentLoaded", loadHeaderAndFooter);
+document.addEventListener("DOMContentLoaded", loadHarmonogram);
+document.addEventListener("DOMContentLoaded", loadIntroductionText);
