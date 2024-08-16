@@ -51,7 +51,7 @@ body {
 .section-wrapper {
   background-color: var(--text-bg-color);
   padding: 20px;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 }
 
 .text {
@@ -68,7 +68,8 @@ body {
 
 .important {
   text-transform: uppercase;
-  font-weight: 500;
+  letter-spacing: 0.1px;
+  font-weight: 400;
 }
 
 .white-space {
@@ -124,7 +125,7 @@ h3::first-letter {
 
 .my-btn {
   border: 2px solid var(--nav-color);
-  border-radius: 5px;
+  border-radius: var(--border-radius);
 }
 
 .my-btn:hover {

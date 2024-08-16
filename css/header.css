@@ -70,7 +70,7 @@ header .nav-list .menu-item,
 header .nav-list .menu-item-dropdown {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--my-black);
+  color: var(--text-color);
   padding: 5px 10px;
   margin: 5px 10px;
   border: 1px solid rgb(0, 0, 0, 0);
@@ -79,7 +79,8 @@ header .nav-list .menu-item-dropdown {
 
 header .nav-list .menu-item:hover,
 header .nav-list .menu-item-dropdown:hover {
-  border: 1px solid var(--my-black);
+  border: 1px solid var(--text-color);
+  border-radius: var(--border-radius);
   cursor: pointer;
 }
 
