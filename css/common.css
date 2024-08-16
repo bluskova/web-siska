@@ -151,7 +151,6 @@ h4 {
 
 .my-btn a {
   text-decoration: none;
-  color: var(--text-color);
   font-family: var(--text-font-family);
   text-transform: uppercase;
 }
@@ -162,7 +161,6 @@ h4 {
 
 .more-info-btn a {
   font-size: 12px;
-  font-weight: 350;
   letter-spacing: 0.5px;
 }
 
@@ -172,7 +170,6 @@ h4 {
 
 .link-btn a {
   font-size: 14px;
-  font-weight: 350;
   letter-spacing: 0.5px;
 }
 
