@@ -66,6 +66,12 @@ body {
   font-size: 12px;
 }
 
+.header-note {
+  font-size: 15px;
+  font-weight: 200;
+  /* text-transform: lowercase; */
+}
+
 .important {
   text-transform: uppercase;
   letter-spacing: 0.1px;
@@ -74,6 +80,10 @@ body {
 
 .white-space {
   padding: 20px;
+}
+
+.white-space-text {
+  padding: 10px;
 }
 
 .display-none {
@@ -91,45 +101,52 @@ h4,
 h5,
 h6 {
   font-family: var(--headings-font-family);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
 }
 
 h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 300;
   letter-spacing: 1px;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  border-bottom: 3px solid var(--nav-color);
-}
-
-h2::first-letter {
-  font-size: 42px;
+  border-bottom: 3px solid var(--main-color);
 }
 
 h3 {
-  text-align: center;
-  text-transform: uppercase;
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 0.5px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  border-bottom: 2px solid var(--nav-color);
+  border-bottom: 2px solid var(--main-color);
 }
 
-h3::first-letter {
-  font-size: 28px;
+h4 {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--main-color);
 }
 
 .my-btn {
-  border: 2px solid var(--nav-color);
+  transition: 0.4s;
+  border: 2px solid var(--main-color);
   border-radius: var(--border-radius);
 }
 
 .my-btn:hover {
-  background-color: var(--nav-color);
+  background-color: var(--main-color);
 }
 
 .my-btn a {
@@ -165,4 +182,19 @@ h3::first-letter {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+a {
+  transition: 0.4s;
+  font-weight: 500;
+}
+
+a:link,
+a:visited {
+  color: var(--link-color);
+}
+
+a:hover,
+a:active {
+  color: var(--text-color);
 }

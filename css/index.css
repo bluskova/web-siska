@@ -20,13 +20,6 @@
   text-align: center;
 }
 
-#home .into-wrapper .intro-box-two h1 {
-  font-size: 42px;
-  font-weight: 300;
-  letter-spacing: 3px;
-  padding-bottom: 20px;
-}
-
 #home .into-wrapper .intro-box-two .intro-text {
   font-family: var(--headings-font-family);
   font-size: 16px;

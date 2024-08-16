@@ -1,6 +1,6 @@
 footer {
   height: var(--footer-height);
-  background-color: var(--nav-color-transparent);
+  background-color: var(--main-color-transparent);
   font-family: var(--headings-font-family);
 }
 
@@ -39,7 +39,7 @@ footer .footer-wrapper {
   margin-bottom: 40px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
 }
 
@@ -125,4 +125,8 @@ footer .footer-copyright .footer-text {
   text-align: center;
   font-size: 12px;
   line-height: 1.5;
+}
+
+footer a {
+  font-weight: 400;
 }

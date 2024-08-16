@@ -1,5 +1,5 @@
 /* sm + md device */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   #home .into-wrapper .intro-box-one {
     display: none;
   }
