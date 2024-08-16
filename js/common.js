@@ -1,63 +1,42 @@
-const afterHeaderLoad = () => {
-  fetch("./js/header.js")
-    .then((response) => response.text())
-    .then((scriptContent) => {
-      eval(scriptContent);
-    })
-    .catch((error) => console.error("Error loading header.js:", error));
-};
+const loadHtmlFragment = (htmlFile, whereToInsert, jsFile = null) => {
+  const targetElement = document.getElementById(whereToInsert);
 
-const afterFooterLoad = () => {
-  fetch("./js/footer.js")
-    .then((response) => response.text())
-    .then((scriptContent) => {
-      eval(scriptContent);
-    })
-    .catch((error) => console.error("Error loading footer.js:", error));
-};
+  if (!targetElement) {
+    console.error(`Element with ID ${whereToInsert} not found.`);
+    return;
+  }
 
-const loadHeaderAndFooter = () => {
-  fetch("./html-fragment/header.html")
+  fetch(`./html-fragment/${htmlFile}`)
     .then((response) => response.text())
     .then((data) => {
-      document.getElementById("header").innerHTML = data;
-      afterHeaderLoad();
-    })
-    .catch((error) => console.error("Error loading header.html:", error));
+      targetElement.innerHTML = data;
 
-  fetch("./html-fragment/footer.html")
-    .then((response) => response.text())
-    .then((data) => {
-      document.getElementById("footer").innerHTML = data;
-      afterFooterLoad();
+      if (jsFile) {
+        const script = document.createElement("script");
+        script.src = `./js/${jsFile}`;
+        script.async = true;
+        document.body.appendChild(script);
+      }
     })
-    .catch((error) => console.error("Error loading footer.html:", error));
+    .catch((error) => console.error(`Error loading ${htmlFile}:`, error));
 };
 
-const loadHarmonogram = () => {
-  fetch("./html-fragment/harmonogram-2024.html")
-    .then((response) => response.text())
-    .then((data) => {
-      document.getElementById("harmonogram-table-2024").innerHTML = data;
-      afterHeaderLoad();
-    })
-    .catch((error) =>
-      console.error("Error loading harmonogram-2024.html:", error)
-    );
-};
+document.addEventListener(
+  "DOMContentLoaded",
+  loadHtmlFragment("header.html", "header", "header.js")
+);
 
-const loadIntroductionText = () => {
-  fetch("./html-fragment/introduction-text.html")
-    .then((response) => response.text())
-    .then((data) => {
-      document.getElementById("introduction-text").innerHTML = data;
-      afterHeaderLoad();
-    })
-    .catch((error) =>
-      console.error("Error loading introduction-text.html:", error)
-    );
-};
+document.addEventListener(
+  "DOMContentLoaded",
+  loadHtmlFragment("footer.html", "footer", "footer.js")
+);
 
-document.addEventListener("DOMContentLoaded", loadHeaderAndFooter);
-document.addEventListener("DOMContentLoaded", loadHarmonogram);
-document.addEventListener("DOMContentLoaded", loadIntroductionText);
+document.addEventListener(
+  "DOMContentLoaded",
+  loadHtmlFragment("introduction-text.html", "introduction-text")
+);
+
+document.addEventListener(
+  "DOMContentLoaded",
+  loadHtmlFragment("harmonogram-2024.html", "harmonogram-table-2024")
+);
