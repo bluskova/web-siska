@@ -48,7 +48,7 @@
 }
 
 #about-us .all-cards .one-card .position {
-  color: var(--my-gray-dark);
+  color: var(--my-gray);
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;

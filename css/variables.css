@@ -4,11 +4,15 @@
   --text-color: rgb(0, 0, 0);
   --text-bg-color: rgb(236, 235, 235);
   --link-color: rgb(108, 108, 108);
+
   --my-white: rgb(255, 255, 255);
+  --my-gray: #5f5f5f;
+
   --header-height: 60px;
   --footer-height: 650px;
-  --headings-font-family: "Fira Sans", sans-serif;
-  --text-font-family: "Open Sans", sans-serif;
   --my-gap: 20px;
   --border-radius: 3px;
+
+  --headings-font-family: "Fira Sans", sans-serif;
+  --text-font-family: "Open Sans", sans-serif;
 }
