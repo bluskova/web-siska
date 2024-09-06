@@ -29,13 +29,17 @@ body {
   opacity: 0.6;
 }
 
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 .anchor {
-  /* scroll-margin-top: calc(var(--header-height) + 10px); */
-  scroll-margin-top: 20px;
+  scroll-margin-top: calc(var(--header-height) + 10px);
 }
 
 .section-padding {
-  /* padding-top: calc(30px + var(--header-height)); */
   padding-top: 40px;
   padding-bottom: 40px;
 }
