@@ -5,4 +5,14 @@
     margin-left: var(--margin-left);
     margin-right: var(--margin-right);
   }
+
+  #web-page::before {
+    background-image: url("../img/background/zahlavi-1.jpg");
+  }
+}
+
+@media (min-width: 1550px) {
+  #web-page::before {
+    background-image: url("../img/background/zahlavi-3.jpg");
+  }
 }

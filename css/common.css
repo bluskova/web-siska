@@ -14,7 +14,7 @@ body {
 
 #web-page::before {
   content: "";
-  background-image: url("../img/background/zahlavi4.jpg");
+  background-image: url("../img/background/zahlavi-2.jpg");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
