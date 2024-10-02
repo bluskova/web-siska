@@ -14,7 +14,7 @@ body {
 
 #web-page::before {
   content: "";
-  background-image: url("../img/background/zahlavi-2.jpg");
+  background-image: url("../img/background/pozadi_2024_2.jpg");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -26,7 +26,7 @@ body {
   bottom: var(--footer-height);
   left: 0;
   right: 0;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 #header {
@@ -56,6 +56,8 @@ body {
   background-color: var(--text-bg-color);
   padding: 20px;
   border-radius: var(--border-radius);
+  box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(221, 221, 221);
 }
 
 .text {
@@ -147,10 +149,16 @@ h4 {
   transition: 0.4s;
   border: 2px solid var(--main-color);
   border-radius: var(--border-radius);
+  background-color: var(--text-bg-color);
 }
 
 .my-btn:hover {
   background-color: var(--main-color);
+  cursor: pointer;
+}
+
+.my-btn:hover a {
+  color: var(--text-color);
 }
 
 .my-btn a {
