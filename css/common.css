@@ -61,7 +61,7 @@ body {
 }
 
 .text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 10px;
   text-align: center;
@@ -69,7 +69,7 @@ body {
 }
 
 .note {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .header-note {
@@ -137,7 +137,7 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: 0.5px;
   padding-bottom: 10px;
