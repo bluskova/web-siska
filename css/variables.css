@@ -12,7 +12,8 @@
   --my-gap: 20px;
   --border-radius: 3px;
 
+  /* --headings-font-family: "Shadows Into Light Two", sans-serif; */
   --headings-font-family: "Fira Sans", sans-serif;
-  /* --headings-font-family: "Amatic SC", sans-serif; */
+  /* --text-font-family: "IBM Plex Serif", sans-serif; */
   --text-font-family: "Open Sans", sans-serif;
 }
