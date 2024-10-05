@@ -123,14 +123,14 @@ h6 {
 h1 {
   font-size: 42px;
   font-weight: 300;
-  letter-spacing: 3px;
+  /* letter-spacing: 3px; */
   padding-bottom: 20px;
 }
 
 h2 {
   font-size: 28px;
   font-weight: 300;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 3px solid var(--main-color);
@@ -139,7 +139,7 @@ h2 {
 h3 {
   font-size: 22px;
   font-weight: 300;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 2px solid var(--main-color);
@@ -148,7 +148,7 @@ h3 {
 h4 {
   font-size: 18px;
   font-weight: 300;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 2px solid var(--main-color);
