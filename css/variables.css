@@ -12,6 +12,8 @@
   --my-gap: 20px;
   --border-radius: 3px;
 
+  --box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.5);
+
   /* --headings-font-family: "Shadows Into Light Two", sans-serif; */
   --headings-font-family: "Fira Sans", sans-serif;
   /* --text-font-family: "IBM Plex Serif", sans-serif; */
