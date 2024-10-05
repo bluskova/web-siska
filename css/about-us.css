@@ -3,9 +3,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: calc(3 * var(--my-gap));
+  gap: calc(4 * var(--my-gap));
 }
 
 #about-us .all-cards .one-card {
@@ -18,6 +18,7 @@
   padding-top: 30px;
   padding-bottom: 40px;
   margin-bottom: 30px;
+  box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.5);
 }
 
 #about-us .all-cards .one-card .picture-container {
