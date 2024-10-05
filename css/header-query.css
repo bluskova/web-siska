@@ -1,7 +1,10 @@
 /* sm + md device */
 @media (max-width: 800px) {
-  header {
+  header .header-content-container {
     flex-direction: row-reverse;
+    width: calc(100% - var(--margin-left) - var(--margin-right));
+    margin-left: var(--margin-left);
+    margin-right: var(--margin-right);
   }
 
   header nav {
