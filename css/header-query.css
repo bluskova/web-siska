@@ -1,15 +1,14 @@
 /* sm + md device */
 @media (max-width: 800px) {
-  header .nav-hamburger-container {
-    background-color: var(--main-color);
-    height: var(--header-height);
+  header {
+    flex-direction: row-reverse;
   }
 
   header nav {
     display: none;
     position: absolute;
     top: calc(var(--header-height) - 10px);
-    left: 0;
+    left: var(--margin-left);
   }
 
   header nav .nav-list {
@@ -46,11 +45,7 @@
 
 /*  lg, xl, xxl device */
 @media (min-width: 801px) {
-  header {
-    background-color: var(--main-color);
-  }
-
-  header .nav-hamburger {
+  header .menu-icon-container {
     display: none;
   }
 
