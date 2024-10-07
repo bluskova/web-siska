@@ -1,5 +1,4 @@
-/* sm + md device */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   header .header-content-container {
     flex-direction: row-reverse;
     width: calc(100% - var(--margin-left) - var(--margin-right));
@@ -46,8 +45,7 @@
   }
 }
 
-/*  lg, xl, xxl device */
-@media (min-width: 801px) {
+@media (min-width: 901px) {
   header .menu-icon-container {
     display: none;
   }

@@ -1,6 +1,12 @@
 :root {
   --main-color: rgb(115, 170, 176);
   --main-color-transparent: rgba(115, 170, 176, 0.9);
+  --bg-color: rgb(144, 213, 220);
+
+  /* --main-color: rgb(138, 114, 85);
+  --main-color-transparent: rgba(138, 114, 85, 0.9);
+  --bg-color: rgb(173, 143, 107); */
+
   --text-color: rgb(0, 0, 0);
   --text-bg-color: rgba(255, 255, 255, 0.94);
   --link-color: rgb(108, 108, 108);

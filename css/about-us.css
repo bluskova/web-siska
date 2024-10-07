@@ -95,7 +95,7 @@
 }
 
 .thought-container {
-  background-color: rgb(144, 213, 220);
+  background-color: var(--bg-color);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

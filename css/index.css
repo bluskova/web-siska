@@ -24,3 +24,24 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+#home ul {
+  list-style-type: none;
+  line-height: 2;
+}
+
+#home .box-one {
+  max-width: 670px;
+}
+
+#home .box-two {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#home .box-three {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
