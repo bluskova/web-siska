@@ -1,0 +1,9 @@
+#activities .img-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#activities .img-container img {
+  width: 100%;
+}
