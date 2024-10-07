@@ -94,12 +94,6 @@
   letter-spacing: 0;
 }
 
-#about-us #people-title {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  border-bottom: none;
-}
-
 .thought-container {
   background-color: rgb(144, 213, 220);
   display: flex;

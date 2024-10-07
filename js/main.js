@@ -24,8 +24,4 @@ const loadHtmlFragment = (htmlFile, whereToInsert, jsFile = null) => {
 document.addEventListener("DOMContentLoaded", () => {
   loadHtmlFragment("header.html", "header", "header.js");
   loadHtmlFragment("footer.html", "footer", "footer.js");
-
-  if (document.getElementById("introduction-text")) {
-    loadHtmlFragment("introduction-text.html", "introduction-text");
-  }
 });
