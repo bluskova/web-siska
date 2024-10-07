@@ -1,6 +1,6 @@
 header {
   background-color: var(--main-color);
-  box-shadow: var(--box-shadow);
+  /* box-shadow: var(--box-shadow); */
 }
 
 header .header-content-container {
