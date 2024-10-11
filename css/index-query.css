@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+  #home .wrapper {
+    flex-direction: column-reverse;
+  }
+  #home .wrapper-box-1 {
+    width: 100%;
+  }
+  #home .wrapper-box-2 {
+    width: 100%;
+  }
+
+  #home .wrapper-box-2 {
+    height: 300px;
+  }
+
+  #home .about-us-icons {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--my-gap);
+  }
+
+  #home .about-us-icons .icon-container {
+    max-width: 200px;
+  }
+
+  #home .about-us-icons .icon-container .icon-image {
+    width: 30%;
+  }
+
+  #home .about-us-icons .icon-container .icon-title br {
+    display: none;
+  }
+}

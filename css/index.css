@@ -25,26 +25,71 @@
   transform: translateX(-50%);
 }
 
-#home ul {
-  list-style-type: none;
+#home .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: var(--my-gap);
+}
+
+#home .wrap-50 {
+  width: calc(50% - calc(var(--my-gap) / 2));
+}
+
+#home .wrapper-box-2 {
+  background-image: url("../img/gallery/IMG_0918.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+#home .about-us-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home .about-us-icons .icon-container {
+  max-width: 150px;
+}
+
+#home .about-us-icons .icon-container .icon-image {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#home .about-us-icons .icon-container .icon-image img {
+  width: 100%;
+}
+
+#home .about-us-icons .icon-container .icon-title {
+  color: var(--text-col-light);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#home .list-chcecked {
+  margin: auto;
+  max-width: max-content;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#home .list-chcecked ul {
+  list-style: none;
+  padding: 0;
   line-height: 2;
 }
 
-#home .box-one {
-  max-width: 670px;
-  margin: 0 auto;
-}
-
-#home .box-two {
-  width: 400px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#home .box-three {
-  width: 400px;
-  margin: 0 auto;
-  text-align: center;
+#home .list-chcecked li {
+  padding-left: 35px;
+  background-image: url("../img/icon/checked.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: 25px;
 }
 
 #home .section-video {
