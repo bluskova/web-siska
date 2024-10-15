@@ -73,7 +73,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 10px;
-  /* text-align: center; */
+  text-align: justify;
   color: var(--text-color);
 }
 
@@ -91,6 +91,18 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1px;
   font-weight: 400;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 .white-space {
@@ -129,6 +141,7 @@ h1 {
   border-top: 2px solid var(--text-color);
   border-bottom: 2px solid var(--text-color);
 }
+
 .h1-container {
   display: flex;
   justify-content: center;
@@ -196,18 +209,6 @@ h4 {
   letter-spacing: 0.5px;
 }
 
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.centered-text {
-  text-align: center;
-}
-
 a {
   transition: 0.4s;
   font-weight: 500;
@@ -224,5 +225,5 @@ a:active {
 }
 
 .my-btn a {
-  color: black;
+  color: var(--text-color);
 }
