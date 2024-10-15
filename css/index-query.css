@@ -1,10 +1,16 @@
 @media (max-width: 900px) {
   #home .wrapper {
+    flex-direction: column;
+  }
+
+  #home .wrapper-rev {
     flex-direction: column-reverse;
   }
+
   #home .wrapper-box-1 {
     width: 100%;
   }
+
   #home .wrapper-box-2 {
     width: 100%;
   }
