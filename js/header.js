@@ -1,5 +1,6 @@
 const menuIcon = document.getElementById("menu-icon");
 const navigation = document.querySelector("header nav");
+const logo = document.querySelector("header .logo-container");
 
 // inicialization
 let hiddenNav = true;
@@ -44,5 +45,17 @@ document.body.addEventListener("click", (event) => {
 window.addEventListener("keydown", (event) => {
   if (event.code === "Escape" && !hiddenNav) {
     closeNav();
+  }
+});
+
+// change logo size on scroll
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    logo.classList.remove("logo-big");
+    logo.classList.add("logo-small");
+    console.log("scroll");
+  } else {
+    logo.classList.remove("logo-small");
+    logo.classList.add("logo-big");
   }
 });

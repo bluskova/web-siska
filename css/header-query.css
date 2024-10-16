@@ -6,6 +6,22 @@
     margin-right: var(--margin-right);
   }
 
+  header .logo-big {
+    border: 8px solid var(--main-color);
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    left: 5px;
+  }
+
+  header .logo-small {
+    border: 4px solid var(--main-color);
+    width: 100px;
+    height: 100px;
+    top: 3px;
+    left: 0px;
+  }
+
   header nav {
     display: none;
     position: absolute;
