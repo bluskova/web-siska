@@ -1,6 +1,7 @@
 const menuIcon = document.getElementById("menu-icon");
 const navigation = document.querySelector("header nav");
 const logo = document.querySelector("header .logo-container");
+const logoImg = document.getElementById("img-logo");
 
 // inicialization
 let hiddenNav = true;
@@ -53,9 +54,11 @@ window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     logo.classList.remove("logo-big");
     logo.classList.add("logo-small");
+    logoImg.src = "./img/logo/Siska-logo-square.png";
     console.log("scroll");
   } else {
     logo.classList.remove("logo-small");
     logo.classList.add("logo-big");
+    logoImg.src = "./img/logo/siska-logo-gif.gif";
   }
 });
