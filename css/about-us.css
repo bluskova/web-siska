@@ -94,6 +94,10 @@
   letter-spacing: 0;
 }
 
+#co-deti-zaziji {
+  background-color: var(--bg-color);
+}
+
 .thought-container {
   background-color: var(--bg-color);
   display: flex;

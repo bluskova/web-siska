@@ -2,6 +2,7 @@ const menuIcon = document.getElementById("menu-icon");
 const navigation = document.querySelector("header nav");
 const logo = document.querySelector("header .logo-container");
 const logoImg = document.getElementById("img-logo");
+const r = document.querySelector(":root");
 
 // inicialization
 let hiddenNav = true;
@@ -49,16 +50,27 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
-// change logo size on scroll
+// change logo and nav size on scroll
+
+// const myFunction_get = () => {
+//   var rs = getComputedStyle(r);
+// };
+
+const myFunction_set = (newValue) => {
+  r.style.setProperty("--header-height", newValue);
+};
+
 window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     logo.classList.remove("logo-big");
     logo.classList.add("logo-small");
     logoImg.src = "./img/logo/Siska-logo-square.png";
+    myFunction_set("60px");
     console.log("scroll");
   } else {
     logo.classList.remove("logo-small");
     logo.classList.add("logo-big");
     logoImg.src = "./img/logo/siska-logo-gif.gif";
+    myFunction_set("80px");
   }
 });

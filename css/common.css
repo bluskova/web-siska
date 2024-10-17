@@ -57,12 +57,18 @@ body {
   max-width: 1600px;
 }
 
+.padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .section-wrapper {
   background-color: var(--text-bg-color);
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  border: 1px solid rgb(221, 221, 221);
+  border-left: 1px solid rgb(221, 221, 221);
+  border-right: 1px solid rgb(221, 221, 221);
   width: max-content;
   max-width: 100%;
   margin-left: auto;
