@@ -130,6 +130,12 @@ body {
   align-items: center;
 }
 
+.h-frame {
+  border-top: 2px solid var(--text-color);
+  border-bottom: 2px solid var(--text-color);
+  display: inline-block;
+}
+
 h1,
 h2,
 h3,
@@ -139,9 +145,6 @@ h6 {
   font-family: var(--headings-font-family);
   text-align: center;
   text-transform: uppercase;
-  border-top: 2px solid var(--text-color);
-  border-bottom: 2px solid var(--text-color);
-  display: inline-block;
 }
 
 h1 {
