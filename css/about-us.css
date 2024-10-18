@@ -147,10 +147,10 @@
     -24px 17px 0 -6px #fff, -5px 25px 0 -10px #fff;
 }
 
-#galerie {
+/* #galerie {
   width: 100vw;
   margin: 0 auto;
-}
+} */
 
 .gallery {
   display: flex;

@@ -54,7 +54,7 @@
 
 #home .about-us-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #home .about-us-icons .icon-container {
@@ -100,10 +100,10 @@
   background-size: 25px;
 }
 
-#home .section-video {
+/* #home .section-video {
   width: 100vw;
   margin: 0 auto;
-}
+} */
 
 #home .video-wrapper {
   position: relative;
