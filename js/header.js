@@ -51,12 +51,7 @@ window.addEventListener("keydown", (event) => {
 });
 
 // change logo and nav size on scroll
-
-// const myFunction_get = () => {
-//   var rs = getComputedStyle(r);
-// };
-
-const myFunction_set = (newValue) => {
+const setHeaderHeight = (newValue) => {
   r.style.setProperty("--header-height", newValue);
 };
 
@@ -65,12 +60,11 @@ window.addEventListener("scroll", () => {
     logo.classList.remove("logo-big");
     logo.classList.add("logo-small");
     logoImg.src = "./img/logo/Siska-logo-square.png";
-    myFunction_set("60px");
-    console.log("scroll");
+    setHeaderHeight("60px");
   } else {
     logo.classList.remove("logo-small");
     logo.classList.add("logo-big");
     logoImg.src = "./img/logo/siska-logo-gif.gif";
-    myFunction_set("80px");
+    setHeaderHeight("80px");
   }
 });
