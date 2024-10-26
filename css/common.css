@@ -44,11 +44,6 @@ body {
   scroll-margin-top: calc(var(--header-height) + 10px);
 }
 
-/* .section-padding {
-  padding-top: 40px;
-  padding-bottom: 40px;
-} */
-
 .content-container {
   height: 100%;
   width: 80%;
@@ -57,7 +52,7 @@ body {
   max-width: 1600px;
 }
 
-.page-padding {
+.side-padding {
   padding-left: 40px;
   padding-right: 40px;
 }
