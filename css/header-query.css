@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
   header .header-content-container {
     flex-direction: row-reverse;
     width: calc(100% - var(--margin-left) - var(--margin-right));
@@ -61,7 +61,7 @@
   }
 }
 
-@media (min-width: 901px) {
+@media (min-width: 1301px) {
   header .menu-icon-container {
     display: none;
   }

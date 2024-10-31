@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
   .content-container {
     width: calc(100% - var(--margin-left) - var(--margin-right));
     margin-left: var(--margin-left);
