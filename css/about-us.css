@@ -201,3 +201,101 @@
 .gallery-item img:hover {
   transform: scale(1.2);
 }
+
+.overlay {
+  position: fixed;
+  top: var(--header-height);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+  z-index: 1;
+  overflow: scroll;
+}
+
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
+}
+
+.popup-content {
+  margin: 70px auto;
+  padding: 40px;
+  background: var(--my-white);
+  border-radius: var(--border-radius);
+  position: relative;
+  width: 750px;
+  font-family: tahoma;
+  text-align: center;
+}
+
+.popup-content .close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup-content .left {
+  position: absolute;
+  top: 349px;
+  left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup-content .right {
+  position: absolute;
+  top: 349px;
+  right: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup-content .close:hover,
+.popup-content .left:hover,
+.popup-content .right:hover {
+  cursor: pointer;
+}
+
+.popup-content .picture-container {
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.popup-content img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.popup-content .name {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.popup-content .position {
+  color: var(--my-gray);
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.popup-content .card-text {
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
