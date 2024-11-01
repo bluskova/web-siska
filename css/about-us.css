@@ -216,7 +216,10 @@
 
 .visible {
   visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
+
 .invisible {
   visibility: hidden;
 }
@@ -298,4 +301,22 @@
 .popup-content .card-text {
   line-height: 1.2;
   margin-bottom: 30px;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
