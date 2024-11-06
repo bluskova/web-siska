@@ -73,6 +73,7 @@ body {
   margin-bottom: 10px;
   text-align: justify;
   color: var(--text-color);
+  hyphens: auto;
 }
 
 .note {
