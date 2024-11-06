@@ -230,7 +230,7 @@
   background: var(--my-white);
   border-radius: var(--border-radius);
   position: relative;
-  width: 750px;
+  max-width: 750px;
   font-family: tahoma;
   text-align: center;
 }
