@@ -53,16 +53,29 @@ header .logo-container #img-logo {
 
 header .menu-icon-container {
   margin-left: 10px;
-  display: block;
-}
-
-header .menu-icon-container:hover {
+  display: inline-block;
   cursor: pointer;
 }
 
-header .menu-icon-container i {
-  font-size: 22px;
-  padding: 10px;
+header .menu-icon-container .menu-line {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: var(--text-color);
+  margin: 5px 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+header .menu-icon-container.open .menu-line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+header .menu-icon-container.open .menu-line:nth-child(2) {
+  opacity: 0;
+}
+
+header .menu-icon-container.open .menu-line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 header .nav-list {
