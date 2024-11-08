@@ -190,8 +190,8 @@
 
 .gallery-item {
   position: relative;
-  width: calc(25% - 1px); /* Nastavíme šířku každé položky na 25% s mezerou */
-  padding-bottom: 25%; /* Čtvercový poměr stran */
+  width: calc(25% - 1px);
+  padding-bottom: 25%;
   overflow: hidden;
 }
 
@@ -201,7 +201,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Vyplní prostor obrázkem a ořízne ho, pokud je nutné */
+  object-fit: cover;
   transition: transform 0.4s ease;
 }
 

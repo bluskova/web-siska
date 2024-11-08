@@ -93,11 +93,20 @@
 }
 
 #home .list-chcecked li {
-  padding-left: 35px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#home .list-chcecked li::before {
+  content: "";
+  width: 25px;
+  height: 25px;
   background-image: url("../img/icon/checked.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 50%;
-  background-size: 25px;
+  flex-shrink: 0;
+  margin-top: 5px;
 }
 
 #home .video-wrapper {

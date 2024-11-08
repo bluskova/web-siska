@@ -1,9 +1,19 @@
-#activities .img-container {
+#activities .banner-container {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
-#activities .img-container img {
+#activities .banner-container img {
   width: 100%;
+}
+
+#activities .logo-container {
+  width: 200px;
+  height: 100px;
+}
+
+#activities .logo-container img {
+  width: 100%;
+  height: 100%;
 }
