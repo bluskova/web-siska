@@ -4,7 +4,8 @@
   --bg-color: rgb(188, 230, 234);
   --bg-color: #cfedf0;
 
-  --text-color: rgb(0, 0, 0);
+  /* --text-color: rgb(0, 0, 0); */
+  --text-color: #333;
   --text-bg-color: rgba(255, 255, 255, 0.7);
   --link-color: rgb(198, 82, 72);
   --link-hover-color: rgb(216, 137, 130);
