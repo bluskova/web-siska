@@ -121,13 +121,13 @@ header .nav-list .menu-item-dropdown {
   margin: 5px 10px;
   border: 1px solid rgb(0, 0, 0, 0);
   white-space: nowrap;
+  cursor: pointer;
 }
 
 header .nav-list .menu-item:hover,
 header .nav-list .menu-item-dropdown:hover {
   border: 1px solid var(--text-color);
   border-radius: var(--border-radius);
-  cursor: pointer;
 }
 
 header .nav-list .menu-item,

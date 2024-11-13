@@ -170,6 +170,7 @@ h4 {
   transition: 0.4s;
   border: 2px solid var(--main-color);
   border-radius: var(--border-radius);
+  cursor: pointer;
 }
 
 .my-btn a {
@@ -180,7 +181,6 @@ h4 {
 
 .my-btn:hover {
   background-color: var(--main-color);
-  cursor: pointer;
 }
 
 .my-btn:hover a {
