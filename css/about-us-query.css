@@ -2,6 +2,24 @@
   .popup-content {
     width: 90%;
   }
+
+  .gallery .popup-image span {
+    font-size: 40px;
+  }
+
+  .gallery .popup-image .left {
+    padding: 5px 10px;
+    left: var(--my-gap);
+  }
+
+  .gallery .popup-image .right {
+    padding: 5px 10px;
+    right: var(--my-gap);
+  }
+
+  .gallery .popup-image img {
+    width: 95%;
+  }
 }
 
 @media (max-width: 900px) {
