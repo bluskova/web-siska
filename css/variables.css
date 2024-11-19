@@ -1,14 +1,13 @@
 :root {
-  --main-color: rgb(115, 170, 176);
-  --main-color-transparent: rgba(115, 170, 176, 0.9);
-  --bg-color: rgb(188, 230, 234);
-  --bg-color: #cfedf0;
+  --main-color: rgb(229, 185, 0);
+  --main-color-transparent: rgba(229, 185, 0, 0.9);
+  --bg-color: rgb(255, 234, 128);
 
   /* --text-color: rgb(0, 0, 0); */
   --text-color: #333;
-  --text-bg-color: rgba(255, 255, 255, 0.7);
-  --link-color: rgb(198, 82, 72);
-  --link-hover-color: rgb(216, 137, 130);
+  --text-bg-color: rgba(255, 255, 255, 0.8);
+  --link-color: rgb(0, 159, 229);
+  --link-hover-color: rgb(0, 106, 153);
 
   --my-white: rgb(255, 255, 255);
   --my-gray: #5f5f5f;
