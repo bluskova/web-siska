@@ -14,7 +14,7 @@ body {
 
 #web-page::before {
   content: "";
-  background-image: url("../img/background/pozadi_2024_2.jpg");
+  background-image: url("../img/background/pozadi_2024_5_ruzova.png");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -26,7 +26,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 #footer {
