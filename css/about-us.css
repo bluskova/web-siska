@@ -378,3 +378,73 @@
   object-fit: cover;
   cursor: zoom-out;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: var(--my-gap);
+}
+
+.wrap-75 {
+  width: calc(75% - calc(var(--my-gap) / 2));
+}
+
+.wrap-25 {
+  width: calc(25% - calc(var(--my-gap) / 2));
+}
+
+.intro-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.img-1 {
+  background-image: url("../img/photos-in-text/LMS-Siska-kolecka.jpg");
+}
+
+.img-2 {
+  background-image: url("../img/photos-in-text/LMS-Siska-mamut.jpg");
+}
+
+.img-3 {
+  background-image: url("../img/photos-in-text/LMS-Siska-noziky.jpg");
+}
+
+.img-4 {
+  background-image: url("../img/photos-in-text/LMS-Siska-predskolacke-kachle.jpg");
+}
+
+.img-5 {
+  background-image: url("../img/photos-in-text/LMS-Siska-batuzky.jpg");
+}
+
+.img-6 {
+  background-image: url("../img/photos-in-text/LMS-Siska-skritci.jpg");
+}
+
+.img-7 {
+  background-image: url("../img/photos-in-text/LMS-Siska-krmitko.jpg");
+}
+
+.img-8 {
+  background-image: url("../img/photos-in-text/LMS-Siska-vareni-na-piskovisti.jpg");
+}
+
+.img-9 {
+  background-image: url("../img/photos-in-text/LMS-Siska-slackline-a-kruhy.jpg");
+}
+
+.img-10 {
+  background-image: url("../img/photos-in-text/LMS-Siska-fixy.jpg");
+}
+
+.img-11 {
+  background-image: url("../img/photos-in-text/LMS-Siska-fixy.jpg");
+}
+
+.img-12 {
+  background-image: url("../img/photos-in-text/LMS-Siska-maringotka.jpg");
+}
