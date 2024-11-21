@@ -14,7 +14,7 @@ body {
 
 #web-page::before {
   content: "";
-  background-image: url("../img/background/pozadi_2024_2.jpg");
+  background-image: url("../img/background/pozadi_2024_2_zelena_svetla.png");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
