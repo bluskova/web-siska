@@ -1,8 +1,8 @@
 :root {
-  --main-color: rgb(115, 170, 176);
+  --main-color: rgb(240, 235, 4);
+  --main-color: #f7d059;
   --main-color-transparent: rgba(115, 170, 176, 0.9);
-  --bg-color: rgb(188, 230, 234);
-  --bg-color: #cfedf0;
+  --bg-color: rgb(254, 253, 193);
 
   /* --text-color: rgb(0, 0, 0); */
   --text-color: #333;
