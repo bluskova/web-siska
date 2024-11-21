@@ -1,21 +1,21 @@
 @media (max-width: 1300px) {
-  #home .wrapper {
+  .wrapper {
     flex-direction: column;
   }
 
-  #home .wrapper-rev {
+  .wrapper-rev {
     flex-direction: column-reverse;
   }
 
-  #home .wrapper-box-1 {
+  .wrapper-box-1 {
     width: 100%;
   }
 
-  #home .wrapper-box-2 {
+  .wrapper-box-2 {
     width: 100%;
   }
 
-  #home .wrapper-box-2 {
+  .wrapper-box-2 {
     height: 300px;
   }
 
