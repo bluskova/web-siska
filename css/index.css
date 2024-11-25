@@ -42,6 +42,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  box-shadow: var(--box-shadow);
 }
 
 #home .intro-img-2 {
@@ -50,6 +51,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  box-shadow: var(--box-shadow);
 }
 
 #home .about-us-icons {
